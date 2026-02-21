@@ -3,7 +3,7 @@
 
 Welcome to the first beginner project for analytics engineering. This project designed to introduce beginners to creating a transformation pipeline using dbt and duckdb.
 
-This project demonstrats building a simple pipelinw that
+This project demonstrats building a simple pipeline that
 - transforms data from source (duckdb)
     ![Transformation](images/dbt_olist_project.png)
 - models staging and mart layers (using dbt)
