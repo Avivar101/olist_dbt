@@ -23,4 +23,4 @@ This projects walks through:
 
 The final layer is the BI Layer which consumes the data models from the data warehouse (using metabase)
 the final layer:
-![Metabase BI Layer](images\metabase_dashboard.jpg)
+![Metabase BI Layer](images/metabase_dashboard.png)
