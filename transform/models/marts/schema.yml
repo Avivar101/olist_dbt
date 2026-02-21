@@ -1,0 +1,56 @@
+version: 2
+
+models:
+  - name: fct_orders
+    description: >
+        One row per order.
+        Represents the lifecycle and status of the customer orders.
+        Used for order volume, trends, and operational reporting.
+    columns:
+      - name: order_id
+        description: Primary key for the order.
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: Foreign key to dim_customer.
+
+      - name: order_status
+        description: "{{ doc('order_status') }}"
+
+      - name: order_purchase_timestamp
+        description: Timestamp when order was placed
+
+      - name: items_count
+        description: Total count of items in order
+
+  - name: fct_payments
+    description: >
+        One row per payment.
+    columns:
+      - name: order_id
+        description: Foreign key to fct_orders.
+        tests:
+          - unique
+          - not_null
+    
+      - name: total_payment_values
+        description: Total value of payments for the order.
+
+      - name: payment_count
+        description: Count of payments for the order.
+
+  - name: dim_customers
+    description: >
+        Customer dimension.
+        One row per customer_id with geographic attributes.
+    columns:
+      - name: customer_id
+        description: primary key for customer
+    
+      - name: customer_city
+        description: City wher customer is located
+
+      - name: customer_state
+        description: State where the customer is located.
+

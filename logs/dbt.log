@@ -1,0 +1,181 @@
+[0m21:08:07.189267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215E1FFD2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215E0D09090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215E2D17390>]}
+
+
+============================== 21:08:07.242618 | c83710dd-0db7-473e-994e-2d068db1aa84 ==============================
+[0m21:08:07.242618 [info ] [MainThread]: Running with dbt=1.11.5
+[0m21:08:07.243798 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\USER\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init transform', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:08:07.347427 [debug] [MainThread]: Starter project path: C:\Users\USER\Documents\DuckDB\olist_dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m21:08:07.370052 [info ] [MainThread]: 
+Your new dbt project "transform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:08:07.370836 [info ] [MainThread]: Setting up your profile.
+[0m21:08:19.473930 [debug] [MainThread]: Command `dbt init` succeeded at 21:08:19.473577 after 12.42 seconds
+[0m21:08:19.474640 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215E44E6190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215E4521370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215E4303AC0>]}
+[0m21:08:19.475456 [debug] [MainThread]: Flushing usage events
+[0m21:08:21.086808 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:39:54.125654 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209B8C95160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209B695C050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209B9E13C50>]}
+
+
+============================== 04:39:54.133389 | ddb5e105-8ead-4b39-b2cc-ac380e1aac2c ==============================
+[0m04:39:54.133389 [info ] [MainThread]: Running with dbt=1.11.5
+[0m04:39:54.134602 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\USER\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt run --select stg_olist_customers', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m04:39:54.135358 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\USER\Documents\DuckDB\olist_dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m04:39:54.136760 [debug] [MainThread]: Command `dbt run` failed at 04:39:54.136598 after 0.26 seconds
+[0m04:39:54.137211 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209B9D42EA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209B9E39FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000209B9C5F8A0>]}
+[0m04:39:54.137657 [debug] [MainThread]: Flushing usage events
+[0m04:39:55.476957 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:40:19.184937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211B9B35160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211B77A8050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211BACABC50>]}
+
+
+============================== 04:40:19.190106 | 7f2b4ff1-52f7-4ee0-b654-e584ed8666fd ==============================
+[0m04:40:19.190106 [info ] [MainThread]: Running with dbt=1.11.5
+[0m04:40:19.190883 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\USER\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m04:40:19.233050 [info ] [MainThread]: dbt version: 1.11.5
+[0m04:40:19.234108 [info ] [MainThread]: python version: 3.13.12
+[0m04:40:19.234750 [info ] [MainThread]: python path: C:\Users\USER\Documents\DuckDB\olist_dbt\.venv\Scripts\python.exe
+[0m04:40:19.235192 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m04:40:19.242823 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m04:40:19.246784 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m04:40:19.251144 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m04:40:19.254988 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m04:40:19.412855 [info ] [MainThread]: Using profiles dir at C:\Users\USER\.dbt
+[0m04:40:19.413632 [info ] [MainThread]: Using profiles.yml file at C:\Users\USER\.dbt\profiles.yml
+[0m04:40:19.414365 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\USER\Documents\DuckDB\olist_dbt\dbt_project.yml
+[0m04:40:19.415264 [info ] [MainThread]: Configuration:
+[0m04:40:19.415945 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m04:40:19.416646 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m04:40:19.417322 [info ] [MainThread]: Required dependencies:
+[0m04:40:19.418085 [debug] [MainThread]: Executing "git --help"
+[0m04:40:19.472188 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m04:40:19.472985 [debug] [MainThread]: STDERR: "b''"
+[0m04:40:19.473595 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m04:40:19.474316 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m04:40:19.475082 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m04:40:19.475744 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "default", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+Runtime Error
+  Credentials in profile "fullHouse", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+Runtime Error
+  Credentials in profile "ecom_store", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+Runtime Error
+  Credentials in profile "jaffle_shop", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+
+[0m04:40:19.476533 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\USER\Documents\DuckDB\olist_dbt\dbt_project.yml> not found
+
+[0m04:40:19.477994 [debug] [MainThread]: Command `dbt debug` failed at 04:40:19.477792 after 0.44 seconds
+[0m04:40:19.478514 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211BBF2C510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211BACD4CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211BBD16470>]}
+[0m04:40:19.479024 [debug] [MainThread]: Flushing usage events
+[0m04:40:20.537798 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:46:22.952237 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BFEFC15160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BFED88C050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BFF0D8BC50>]}
+
+
+============================== 04:46:22.960085 | 20fd42f6-de74-41be-b922-51a686a0eb68 ==============================
+[0m04:46:22.960085 [info ] [MainThread]: Running with dbt=1.11.5
+[0m04:46:22.961117 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\USER\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m04:46:22.995711 [info ] [MainThread]: dbt version: 1.11.5
+[0m04:46:22.996409 [info ] [MainThread]: python version: 3.13.12
+[0m04:46:22.997160 [info ] [MainThread]: python path: C:\Users\USER\Documents\DuckDB\olist_dbt\.venv\Scripts\python.exe
+[0m04:46:22.997923 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m04:46:23.005755 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m04:46:23.010455 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m04:46:23.014820 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m04:46:23.018238 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m04:46:23.171115 [info ] [MainThread]: Using profiles dir at C:\Users\USER\.dbt
+[0m04:46:23.171885 [info ] [MainThread]: Using profiles.yml file at C:\Users\USER\.dbt\profiles.yml
+[0m04:46:23.172575 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\USER\Documents\DuckDB\olist_dbt\dbt_project.yml
+[0m04:46:23.173218 [info ] [MainThread]: Configuration:
+[0m04:46:23.173701 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m04:46:23.174152 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m04:46:23.174582 [info ] [MainThread]: Required dependencies:
+[0m04:46:23.175065 [debug] [MainThread]: Executing "git --help"
+[0m04:46:23.226359 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m04:46:23.227464 [debug] [MainThread]: STDERR: "b''"
+[0m04:46:23.228033 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m04:46:23.229020 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m04:46:23.230000 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m04:46:23.230623 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "default", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+Runtime Error
+  Credentials in profile "fullHouse", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+Runtime Error
+  Credentials in profile "ecom_store", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+Runtime Error
+  Credentials in profile "jaffle_shop", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+
+[0m04:46:23.231443 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\USER\Documents\DuckDB\olist_dbt\dbt_project.yml> not found
+
+[0m04:46:23.233122 [debug] [MainThread]: Command `dbt debug` failed at 04:46:23.232877 after 0.54 seconds
+[0m04:46:23.233847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BFF1F8C510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BFF0DB4CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BFF0E26470>]}
+[0m04:46:23.234662 [debug] [MainThread]: Flushing usage events
+[0m04:46:24.431939 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:17:27.469304 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002672B3C5160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002672903C050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002672C543C50>]}
+
+
+============================== 05:17:27.477657 | 74affcdb-b961-4287-9864-8493709c4717 ==============================
+[0m05:17:27.477657 [info ] [MainThread]: Running with dbt=1.11.5
+[0m05:17:27.478497 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\USER\\.dbt', 'invocation_command': 'dbt run --select stg_olist_order_items', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m05:17:27.479092 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\USER\Documents\DuckDB\olist_dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m05:17:27.480425 [debug] [MainThread]: Command `dbt run` failed at 05:17:27.480213 after 0.26 seconds
+[0m05:17:27.480930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002672C46EEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002672C569FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002672C38F8A0>]}
+[0m05:17:27.481389 [debug] [MainThread]: Flushing usage events
+[0m05:17:28.977825 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:40:45.850734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF32775160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF30448050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF338F3C50>]}
+
+
+============================== 14:40:45.859143 | fb9a1238-21b5-4672-90e6-e34f7a80b4b1 ==============================
+[0m14:40:45.859143 [info ] [MainThread]: Running with dbt=1.11.5
+[0m14:40:45.860388 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\USER\\.dbt', 'invocation_command': 'dbt show --inline SELECT database_name, schema_name, table_name FROM duckdb_tables()', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:40:45.861323 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\USER\Documents\DuckDB\olist_dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:40:45.863059 [debug] [MainThread]: Command `dbt show` failed at 14:40:45.862822 after 0.36 seconds
+[0m14:40:45.863657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF33822EA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF33919FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF3373F8A0>]}
+[0m14:40:45.864196 [debug] [MainThread]: Flushing usage events
+[0m14:40:51.312784 [debug] [MainThread]: An error was encountered while trying to flush usage events

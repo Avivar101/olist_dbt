@@ -1,0 +1,21 @@
+
+version: 2
+
+sources:
+  - name: olist
+    schema: raw
+    tables:
+      - name: customers
+        description: "This table contains information about customers, including their unique identifier, name, email, and other contact details."
+      - name: orders
+        description: "This table contains information about orders placed by customers, including the order ID, customer ID, order status, and order date."
+      - name: order_items
+        description: "This table contains information about the items included in each order, including the order ID, product ID, quantity, and price."
+      - name: products
+        description: "This table contains information about products available for purchase, including the product ID, product name, category, and price."
+      - name: sellers
+        description: "This table contains information about sellers, including their unique identifier, name, and other contact details."
+      - name: order_payments
+        description: "This table contains information about payments made for orders, including the payment ID, order ID, payment type, and payment amount."
+      - name: reviews
+        description: "This table contains information about customer reviews for products, including the review ID, product ID, customer ID, review score, and review comment."
